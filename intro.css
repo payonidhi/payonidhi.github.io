@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home{
+    background-color: rgb(125, 112, 177);
+    height: 100vh;
+}
+
+nav{
+    background-color: rgb(186, 180, 240);
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    padding: 10px;
+    align-items: center;
+    color: rgb(24, 22, 19);
+    
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 500px;
+}
+.intro{
+    display: flex;
+    height: 100%;
+    padding: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(20, 20, 18);
+}
+.socials{
+    margin-top: 10px;
+}
+.socials:hover{
+    cursor: pointer;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+}
+#logo{
+    height: 70px;
+    width: 80px;
+}
+.about-me-button{
+    background-color:rgb(238, 61, 61);
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+.about-me-button:hover{
+    background-color: rgb(241, 41, 41);
+    cursor: pointer;
+}
+.intro{
+    padding: 80px;
+}
+#about-me{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    justify-content: space-around;
+}
+.about-me-text{
+    width: 50%;
+}
+h2{
+    font-size: 40px;
+}
+
+#projects{
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+.project-card{
+    border: 2px solid wheat;
+    box-shadow:5px 5px 10px rgb(20, 17, 17) ;
+    height: 400px;
+    width: 300px;
+}
+.project-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    height: 400px;
+    align-items: center;
+    padding-top: 60px;
+}
+@media only screen and (max-width : 1000px ){
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+h3{
+    font-size: 20px;
+    padding:  40px;
+}
+#img{
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+}
+span{
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.references{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-around;
+    padding-top: 60px;
+    color: white;
+}
+.ref-button{
+    background-color: rgb(20, 20, 18);
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+}
+footer{
+    background-color: black; 
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
